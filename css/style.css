@@ -1,0 +1,66 @@
+/* index style  */
+
+
+
+
+.new3{
+background-image: url("../img2/train.jpg");
+background-size: cover;
+}
+
+.new4{
+background-color: rgba(0,0,0,0.9);
+}
+
+
+
+
+.cover{
+background-image: url("../img2/grad.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.cover2{
+	position: relative;
+   background: linear-gradient(130deg,  rgb(47,79,79)50%, rgba(0,0,0,0.5) 50% );
+}
+
+.footer{
+     background-color: rgba(0,0,0,0.9);
+}
+.footer ul{
+    text-decoration: none;
+}
+.footer li{
+    list-style: none;
+    color: white;
+    padding-bottom: -20px;
+}
+.footer li a{
+color: #fffff0;
+    padding-bottom: 2px;
+
+}
+
+.line{
+	height:1px;
+	background:linear-gradient(5deg, gold 2%,  grey 25%);
+}
+
+.line2{
+    height:2px;
+    width: 40px;
+    margin-top: -10px;
+    background: #8A2BE2;
+}
+
+.line3{
+    height:2px;
+    width: 80px;
+    margin-top: -10px;
+    background: gold;
+}
+
+
+

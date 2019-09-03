@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>clone site usig bootstrap 4</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+
+ 	<!----fontawesome social icon---->
+ 	<div style="background-color: black;">
+ 		<div class="container">
+ 			<div class="row">
+ 			   <div class="col-12">
+ 			      <a class="pr-3 text-white" href="#">	<i class="fa fa-facebook-f"></i></a>
+ 			      <a class="pr-3 text-white" href="#"><i class="fa fa-twitter"></i></a>
+ 			      <a class="pr-3 text-white" href="#"><i class="fa fa-linkedin"></i></a>
+ 			      <a class="pr-3 text-white" href="#"><i class="fa fa-instagram"></i></a>
+
+ 		       </div>
+ 		  </div>
+ 	   </div>
+ 	</div>
+
+     <!-------companylgo------time for daily work---->
+ 	<div style="background-color: #2F4F4F;">
+ 		<div class="container">`
+ 		   <div class="row">
+ 		   	 <div class="col-3 col-lg-1">
+ 		   	 	<span class="pr-3 text-warning" href="#"><i class="fa fa-home fa-3x"></i></span>
+ 		   	 </div>
+ 		   	 <div class="col-6 col-lg-3" style="margin-left: -10px;">
+ 		   	 	<span><h3 class="font-weight-bold text-warning">Rosetop Nig Ltd</h3> </span>
+ 		   	 	<span><p class="text-white" style="margin-top: -10px;"><i>Energy/Power services</i></p></span>
+ 		     </div>
+ 		     <div class=" d-none d-lg-block col-lg-1">
+ 		     	<span class="pr-1 text-white" href="#"><i class="fa fa-envelope fa-2x"></i></span>
+ 		     </div>
+ 		     <div class=" d-none d-lg-block col-lg-3">
+ 		       <span class="text-white font-weight-bold" style="margin-left: -30px";>Mail us:</span><br>
+           <span class=" pb-3 text-white font-weight-bold" style="margin-left: -30px">rosetopcontact@gmail.com</span>
+ 		     </div>
+ 		     <div class="d-none d-lg-block col-lg-1">
+ 		        <a class="pr-2 pt-5 text-white" href="#"><i class="fa fa-phone fa-2x"></i></a>
+ 		     </div>
+ 		     <div class="d-none d-lg-block col-lg-3">
+ 		        <span class="text-white font-weight-bold" style="margin-left: -30px">Call us</span><br>
+ 		        <span class=" pb-3 text-white font-weight-bold" style="margin-left: -30px">08102524483,&nbsp 08155164833</span>
+ 		     </div>
+ 		     
+
+
+              <div class= "col-2 d-lg-none">
+              	<nav class="navbar navbar-light navbar-expand-lg">
+ 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	         <span class="navbar-toggler-icon text-white"></span>
+	      </button>
+	      </div>
+
+
+ 		  </div>
+ 		</div>
+ 	 </div>
+
+
+
+ 	 <!------------navigational bar------------>
+ 	  <nav class="navbar navbar-light bg-white navbar-expand-lg">
+   	<div class="container">
+   	 <div class="row">
+   	   <div class="col-lg-12">
+	      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav mr-auto pr-3 text-dark">
+	    	  <li class="nav-item dropdown mr-4">
+	             <a class="nav-link  font-weight-bold" href="index.html" > HOME </a>
+	              
+	          </li>
+	          <li class="nav-item mr-4 text-dark">
+	            <a class="nav-link font-weight-bold" href="#">Register </a>
+	         </li>
+	         
+	     </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+
+ <!---------------------customer request form------------------>
+
+  <div class="container-fluid bg-light"   id="contact">
+    <div class="row">
+    <div class="col-12">
+  <h2 class="">CUSTOMER REQUEST</h2>
+</div>
+     <div class="col-lg-4 col-md-6 bg-secondary pb-5 pr-4 pl-4" style="margin: auto;">
+     <form method="POST" id="javascript_form">
+  <div class="row pt-3">
+    <div class="col-12">
+      <label for="validationDefault01">Date</label>
+      <input type="date" class="form-control" id="date" placeholder="" required>
+    </div>
+  </div>
+  <div class="row pt-3">
+        <div class="col-12">
+          <label for="validationDefault01">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="customer name" required>
+        </div>
+      </div>
+      <div class="row pt-3">
+            <div class="col-12">
+              <label for="validationDefault01">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="customer name">
+            </div>
+          </div>
+  <div class="form-group col-12">
+        <label for="exampleFormControlSelect1">Engine Type</label>
+        <select class="form-control" id="engineType">
+          <option>Petrol</option>
+          <option>Diesel</option>
+        </select>
+      </div>
+      <div class="form-group col-12">
+            <label for="exampleFormControlSelect1">Service Type</label>
+            <select class="form-control" id="serviceType">
+              <option>General Service</option>
+              <option>Preventive Maintenance</option>
+            </select>
+          </div>
+      <div class="row">
+            <div class="col-12 ">
+              <label for="validationDefault03">Location</label>
+              <input type="text" class="form-control" id="location" placeholder="City" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div> 
+            
+          </div>
+          <div class="row">
+                <div class="col-12">
+                  <label for="validationDefault03">Phone Number</label>
+                  <input type="text" class="form-control" id="number" placeholder="mobile number" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div> 
+                
+              </div>
+  <div class="form-group">
+        <div class="row">
+                <div class="col-12 mb-2">
+    <label for="exampleFormControlTextarea1">Comment</label>
+    <textarea class="form-control" id="comment" rows="3"></textarea>
+  </div>
+  </div>
+  </div>
+
+  <button class="btn-lg bg-warning ml-5" style=" background-color: #2F4F4F" type="submit" id="js_send">Contact us</button>
+</form>
+
+
+  </div>
+</div>
+</div>
+
+
+
+   
+
+   <div class="pt-5">
+      <div class="cover">
+        <div class="cover2">
+          <div class="container">
+          	<div class="row">
+          		<div class="col-12 pt-5 pb-5">
+           <span class="text-white font-weight-bold pt-5" style="font-size: 20px;"> Do you want to insatll or service your cummis engine </span><br><span class="text-white font-weight-bold pr-5" style="font-size:12px;"> Don't forget to contact us</span>
+           
+             </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer pt-5">
+          <div class="container">
+            <div class="row pb-5">
+                 <div class=" col-12 col-md-4">
+                 	<span class="pr-3 text-warning" href="#"><i class="fa fa-truck fa-3x"></i></span>
+                 	<span><h3 class="font-weight-bold text-warning">Rosetop Nig Ltd</h3> </span>
+ 		   	 	<span><p class="text-white" style="margin-top: -10px;"><i>Energy/Power services</i></p></span>
+
+    
+                     <span>  
+          	      <a class="pr-2 text-blue" href="#">	<i class="fa fa-facebook-f"></i></a>
+ 			      <a class="pr-2 text-blue" href="#"><i class="fa fa-twitter"></i></a>
+ 			      <a class="pr-2 text-blue" href="#"><i class="fa fa-linkedin"></i></a>
+ 			      <a class="pr-2 text-blue" href="#"><i class="fa fa-instagram"></i></a>
+ 			       </span>
+                     </p>
+                </div>
+                <div class=" col-12 col-md-5">
+                   <h3 class="text-secondary"> Quick links</h3>
+                    <div class="line"> </div>
+
+                   
+                   <div class="row"> 
+                       <div class="col-6 col-md-5">
+                       <ul class="unstyled-list" style="font-size:12px;">
+                          <li><a href="index.html">Home</a></li>   
+                         <li><a href="#"></a>Customer Request</li>
+                      </ul>
+                      </div>    
+               </div>
+             </div>
+
+         <div class="col-12 col-md-3">
+        <h3 class="text-secondary"> Reach us</h3>
+        <div class="line"> </div>
+        <address>
+        	<p class="text-white" style="font-size:12px";>>Akure South, Ondo state, Nigeria.</p>
+
+        	<p class="text-white"  style="font-size:12px";>(+234) 8102524483<br> (+234) 8155164833
+        	</p>
+
+        	<p class="text-white" style="font-size:12px";>rosetopcontact@gmail.com<br>
+        		mailu@yahoo.com
+        	</p>
+        	
+
+        </address>
+       </div>
+    </div>
+</div>
+  <div class="row">
+	<div class="col-12 pt-3">
+<p class="text-center text-white" style="font-family:Algerian;"> copyright © Rosetop 2019, Designed by SmarTech</p>
+  </div>
+  </div>
+  </div>
+
+
+  <script type="text/javascript" src="./js/main.js"> </script>
+ 	 <script type="text/javascript" src="./js/Jquery2.js">  </script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"> </script>
+ </body>
+ </html>
